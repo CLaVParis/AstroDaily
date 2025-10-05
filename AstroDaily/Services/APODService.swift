@@ -11,7 +11,7 @@ import Foundation
 class APODService: APODServiceProtocol {
     @Injected(NetworkServiceProtocol.self) private var networkService: NetworkServiceProtocol
     @Injected(CacheServiceProtocol.self) private var cacheService: CacheServiceProtocol
-    private let maxRetryDays: Int = 7
+    private let maxRetryDays: Int = 30
     
     init() {
     }
@@ -29,7 +29,7 @@ class APODService: APODServiceProtocol {
         var currentDate = date
         var lastError: Error?
         
-        // If requested date has no content, try up to 7 days back
+        // If requested date has no content, try up to 30 days back
         for _ in 0..<maxRetryDays {
             do {
                 let apod = try await fetchAPODForSpecificDate(currentDate)
