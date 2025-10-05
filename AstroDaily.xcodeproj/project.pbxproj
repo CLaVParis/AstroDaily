@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		03C1DBAE2E8DD0CD007F46CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C1DB952E8DD0CB007F46CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C1DB9C2E8DD0CB007F46CE;
+			remoteInfo = AstroDaily;
+		};
+		03C1DBB82E8DD0CD007F46CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C1DB952E8DD0CB007F46CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C1DB9C2E8DD0CB007F46CE;
+			remoteInfo = AstroDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C1DB9D2E8DD0CB007F46CE /* AstroDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C1DBAD2E8DD0CD007F46CE /* AstroDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C1DBB72E8DD0CD007F46CE /* AstroDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		03C1DB9F2E8DD0CB007F46CE /* AstroDaily */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AstroDaily;
+			sourceTree = "<group>";
+		};
+		03C1DBB02E8DD0CD007F46CE /* AstroDailyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AstroDailyTests;
+			sourceTree = "<group>";
+		};
+		03C1DBBA2E8DD0CD007F46CE /* AstroDailyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AstroDailyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C1DB9A2E8DD0CB007F46CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBAA2E8DD0CD007F46CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBB42E8DD0CD007F46CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C1DB942E8DD0CB007F46CE = {
+			isa = PBXGroup;
+			children = (
+				03C1DB9F2E8DD0CB007F46CE /* AstroDaily */,
+				03C1DBB02E8DD0CD007F46CE /* AstroDailyTests */,
+				03C1DBBA2E8DD0CD007F46CE /* AstroDailyUITests */,
+				03C1DB9E2E8DD0CB007F46CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C1DB9E2E8DD0CB007F46CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C1DB9D2E8DD0CB007F46CE /* AstroDaily.app */,
+				03C1DBAD2E8DD0CD007F46CE /* AstroDailyTests.xctest */,
+				03C1DBB72E8DD0CD007F46CE /* AstroDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C1DB9C2E8DD0CB007F46CE /* AstroDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C1DBC12E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDaily" */;
+			buildPhases = (
+				03C1DB992E8DD0CB007F46CE /* Sources */,
+				03C1DB9A2E8DD0CB007F46CE /* Frameworks */,
+				03C1DB9B2E8DD0CB007F46CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				03C1DB9F2E8DD0CB007F46CE /* AstroDaily */,
+			);
+			name = AstroDaily;
+			packageProductDependencies = (
+			);
+			productName = AstroDaily;
+			productReference = 03C1DB9D2E8DD0CB007F46CE /* AstroDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C1DBAC2E8DD0CD007F46CE /* AstroDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C1DBC42E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDailyTests" */;
+			buildPhases = (
+				03C1DBA92E8DD0CD007F46CE /* Sources */,
+				03C1DBAA2E8DD0CD007F46CE /* Frameworks */,
+				03C1DBAB2E8DD0CD007F46CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C1DBAF2E8DD0CD007F46CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03C1DBB02E8DD0CD007F46CE /* AstroDailyTests */,
+			);
+			name = AstroDailyTests;
+			packageProductDependencies = (
+			);
+			productName = AstroDailyTests;
+			productReference = 03C1DBAD2E8DD0CD007F46CE /* AstroDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C1DBB62E8DD0CD007F46CE /* AstroDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C1DBC72E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDailyUITests" */;
+			buildPhases = (
+				03C1DBB32E8DD0CD007F46CE /* Sources */,
+				03C1DBB42E8DD0CD007F46CE /* Frameworks */,
+				03C1DBB52E8DD0CD007F46CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C1DBB92E8DD0CD007F46CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03C1DBBA2E8DD0CD007F46CE /* AstroDailyUITests */,
+			);
+			name = AstroDailyUITests;
+			packageProductDependencies = (
+			);
+			productName = AstroDailyUITests;
+			productReference = 03C1DBB72E8DD0CD007F46CE /* AstroDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C1DB952E8DD0CB007F46CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					03C1DB9C2E8DD0CB007F46CE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					03C1DBAC2E8DD0CD007F46CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 03C1DB9C2E8DD0CB007F46CE;
+					};
+					03C1DBB62E8DD0CD007F46CE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 03C1DB9C2E8DD0CB007F46CE;
+					};
+				};
+			};
+			buildConfigurationList = 03C1DB982E8DD0CB007F46CE /* Build configuration list for PBXProject "AstroDaily" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C1DB942E8DD0CB007F46CE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03C1DB9E2E8DD0CB007F46CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C1DB9C2E8DD0CB007F46CE /* AstroDaily */,
+				03C1DBAC2E8DD0CD007F46CE /* AstroDailyTests */,
+				03C1DBB62E8DD0CD007F46CE /* AstroDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C1DB9B2E8DD0CB007F46CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBAB2E8DD0CD007F46CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBB52E8DD0CD007F46CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C1DB992E8DD0CB007F46CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBA92E8DD0CD007F46CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C1DBB32E8DD0CD007F46CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C1DBAF2E8DD0CD007F46CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C1DB9C2E8DD0CB007F46CE /* AstroDaily */;
+			targetProxy = 03C1DBAE2E8DD0CD007F46CE /* PBXContainerItemProxy */;
+		};
+		03C1DBB92E8DD0CD007F46CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C1DB9C2E8DD0CB007F46CE /* AstroDaily */;
+			targetProxy = 03C1DBB82E8DD0CD007F46CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C1DBBF2E8DD0CD007F46CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C1DBC02E8DD0CD007F46CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C1DBC22E8DD0CD007F46CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroDaily/Preview Content\"";
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C1DBC32E8DD0CD007F46CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroDaily/Preview Content\"";
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03C1DBC52E8DD0CD007F46CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroDaily";
+			};
+			name = Debug;
+		};
+		03C1DBC62E8DD0CD007F46CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroDaily";
+			};
+			name = Release;
+		};
+		03C1DBC82E8DD0CD007F46CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroDaily;
+			};
+			name = Debug;
+		};
+		03C1DBC92E8DD0CD007F46CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y78SH3B5J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AstroDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C1DB982E8DD0CB007F46CE /* Build configuration list for PBXProject "AstroDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C1DBBF2E8DD0CD007F46CE /* Debug */,
+				03C1DBC02E8DD0CD007F46CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C1DBC12E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C1DBC22E8DD0CD007F46CE /* Debug */,
+				03C1DBC32E8DD0CD007F46CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C1DBC42E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C1DBC52E8DD0CD007F46CE /* Debug */,
+				03C1DBC62E8DD0CD007F46CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C1DBC72E8DD0CD007F46CE /* Build configuration list for PBXNativeTarget "AstroDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C1DBC82E8DD0CD007F46CE /* Debug */,
+				03C1DBC92E8DD0CD007F46CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C1DB952E8DD0CB007F46CE /* Project object */;
+}
