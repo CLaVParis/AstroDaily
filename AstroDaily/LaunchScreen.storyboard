@@ -31,10 +31,6 @@
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="tXr-aL-RK0">
-                                        <rect key="frame" x="90" y="100" width="20" height="20"/>
-                                        <color key="color" systemColor="systemBlueColor"/>
-                                    </activityIndicatorView>
                                 </subviews>
                             </stackView>
                         </subviews>
