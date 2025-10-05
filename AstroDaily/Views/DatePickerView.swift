@@ -62,9 +62,6 @@ struct DatePickerView: View {
                         .padding(.horizontal, geometry.size.width > UIConstants.tabletBreakpoint ? UIConstants.tabletPadding : UIConstants.phonePadding)
                         .scaleEffect(geometry.size.width > UIConstants.tabletBreakpoint ? UIConstants.tabletScale : UIConstants.phoneScale)
                         
-                        QuickDateButtons(selectedDate: $tempDate, onDateSelected: { _ in })
-                            .padding(.horizontal, geometry.size.width > UIConstants.tabletBreakpoint ? UIConstants.tabletPadding : UIConstants.phonePadding)
-                        
                         Spacer(minLength: UIConstants.minSpacerLength)
                         HStack(spacing: 16) {
                             Button("Cancel") {

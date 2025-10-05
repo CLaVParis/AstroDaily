@@ -60,10 +60,3 @@ struct NetworkConstants {
     static let timeoutInterval: TimeInterval = 30.0
 }
 
-// MARK: - Quick Date Constants
-struct QuickDateConstants {
-    static let yesterday = -1
-    static let threeDaysAgo = -3
-    static let oneWeekAgo = -7
-    static let oneMonthAgo = -30
-}
