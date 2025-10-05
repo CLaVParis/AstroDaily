@@ -10,8 +10,7 @@ import SwiftUI
 // MARK: - APOD Content View
 struct APODContentView: View {
     @StateObject private var viewModel = APODViewModel()
-    @State private var showingDatePicker = false
-    @State private var selectedDate = Date()
+    @Environment(\.coordinator) private var coordinator
     
     var body: some View {
         NavigationView {
@@ -19,7 +18,14 @@ struct APODContentView: View {
                 VStack(spacing: UIConstants.spacing) {
                     DateSelectorBar(
                         currentDate: viewModel.currentRequestedDate,
-                        showingDatePicker: $showingDatePicker
+                        onDatePickerTapped: {
+                            coordinator.showDatePicker(
+                                selectedDate: viewModel.currentRequestedDate,
+                                onDateSelected: { date in
+                                    viewModel.loadCustomDateAPOD(for: date)
+                                }
+                            )
+                        }
                     )
                     
                     // Handle different view states
@@ -64,15 +70,6 @@ struct APODContentView: View {
         .navigationViewStyle(StackNavigationViewStyle())
         .astroDarkModeSupport()
         .standardFontSize()
-        .sheet(isPresented: $showingDatePicker) {
-            DatePickerView(
-                selectedDate: $selectedDate,
-                isPresented: $showingDatePicker,
-                onDateSelected: { date in
-                    viewModel.loadCustomDateAPOD(for: date)
-                }
-            )
-        }
         .onAppear {
             if case .empty = viewModel.state {
                 viewModel.loadTodaysAPOD()

@@ -21,44 +21,55 @@ final class AstroDailyUITestsLaunchTests: XCTestCase {
     func testLaunchScreen() throws {
         let app = XCUIApplication()
         
-        app.launchArguments = [
-            "-UI_TESTING",
-            "-disable-system-apps"
-        ]
+        app.launchArguments = ["-UI_TESTING"]
         app.launchEnvironment = [
-            "UITEST_DISABLE_ANIMATIONS": "1",
-            "UITEST_DISABLE_SYSTEM_APPS": "1",
-            "SIMULATOR_DISABLE_SYSTEM_APPS": "1"
+            "UITEST_DISABLE_ANIMATIONS": "1"
         ]
         
         app.launch()
 
-        Thread.sleep(forTimeInterval: 1.0)
-
-        XCTAssertTrue(app.state == .runningForeground)
+        let exists = app.wait(for: .runningForeground, timeout: 5.0)
+        XCTAssertTrue(exists)
         
         app.terminate()
     }
-
+    
     @MainActor
-    func testLaunchStability() throws {
+    func testDateSelectorExists() throws {
         let app = XCUIApplication()
         
-        app.launchArguments = [
-            "-UI_TESTING",
-            "-disable-system-apps"
-        ]
+        app.launchArguments = ["-UI_TESTING"]
         app.launchEnvironment = [
-            "UITEST_DISABLE_ANIMATIONS": "1",
-            "UITEST_DISABLE_SYSTEM_APPS": "1",
-            "SIMULATOR_DISABLE_SYSTEM_APPS": "1"
+            "UITEST_DISABLE_ANIMATIONS": "1"
         ]
         
         app.launch()
+
+        let exists = app.wait(for: .runningForeground, timeout: 5.0)
+        XCTAssertTrue(exists)
         
-        Thread.sleep(forTimeInterval: 1.0)
+        let dateButton = app.buttons.firstMatch
+        XCTAssertTrue(dateButton.waitForExistence(timeout: 3.0))
         
-        XCTAssertTrue(app.state == .runningForeground)
+        app.terminate()
+    }
+    
+    @MainActor
+    func testScrollViewExists() throws {
+        let app = XCUIApplication()
+        
+        app.launchArguments = ["-UI_TESTING"]
+        app.launchEnvironment = [
+            "UITEST_DISABLE_ANIMATIONS": "1"
+        ]
+        
+        app.launch()
+
+        let exists = app.wait(for: .runningForeground, timeout: 5.0)
+        XCTAssertTrue(exists)
+        
+        let scrollView = app.scrollViews.firstMatch
+        XCTAssertTrue(scrollView.waitForExistence(timeout: 3.0))
         
         app.terminate()
     }

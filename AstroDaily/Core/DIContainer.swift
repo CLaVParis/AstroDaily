@@ -133,6 +133,10 @@ final class ServiceRegistry {
             APODViewModel()
         }
         
+        container.registerSingleton(AppCoordinator.self) { 
+            AppCoordinator()
+        }
+        
         logInfo("All services registered successfully")
     }
 }

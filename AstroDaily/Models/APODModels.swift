@@ -40,7 +40,7 @@ enum APODMediaType: String, CaseIterable, Codable {
 }
 
 // MARK: - APOD Model (Domain Model)
-struct APOD: Codable {
+struct APOD: Codable, Hashable {
     let id: String
     let date: Date
     let title: String

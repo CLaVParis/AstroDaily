@@ -17,6 +17,7 @@ struct AstroDailyApp: App {
         WindowGroup {
             ContentView()
                 .withErrorHandling()
+                .withCoordinator()
         }
     }
     

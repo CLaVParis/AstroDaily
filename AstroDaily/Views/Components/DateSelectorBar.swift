@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - Date Selector Bar
 struct DateSelectorBar: View {
     let currentDate: Date
-    @Binding var showingDatePicker: Bool
+    let onDatePickerTapped: () -> Void
     
     var body: some View {
         HStack {
@@ -27,7 +27,7 @@ struct DateSelectorBar: View {
             Spacer()
             
             Button(action: {
-                showingDatePicker = true
+                onDatePickerTapped()
             }) {
                 HStack(spacing: UIConstants.smallSpacing / 2) {
                     Image(systemName: "calendar")
@@ -52,6 +52,6 @@ struct DateSelectorBar: View {
 }
 
 #Preview {
-    DateSelectorBar(currentDate: Date(), showingDatePicker: .constant(false))
+    DateSelectorBar(currentDate: Date(), onDatePickerTapped: {})
         .padding()
 }
