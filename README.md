@@ -197,7 +197,7 @@ The application includes extensive testing with **62 test cases** covering:
 
 ### Network Optimization
 - **Request Optimization**: Efficient API calls with proper error handling
-- **Fallback Logic**: Graceful degradation with cached content
+- **Fallback behavior**: display cached content when requested data is unavailable
 - **Timeout Management**: Appropriate timeout settings for different scenarios
 
 ### UI Performance
