@@ -11,7 +11,7 @@ import Foundation
 class APODService: APODServiceProtocol {
     @Injected(NetworkServiceProtocol.self) private var networkService: NetworkServiceProtocol
     @Injected(CacheServiceProtocol.self) private var cacheService: CacheServiceProtocol
-    private let maxRetryDays: Int = 7
+    private let maxRetryDays: Int = 30
     
     init() {
     }
